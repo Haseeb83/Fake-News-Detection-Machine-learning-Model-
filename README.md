@@ -1,1 +1,5 @@
-# Fake-News-Detection-Machine-learning-Model-
+# Fake-News-Detection-Machine-learning-Model
+
+This project classifies fake and real news using datasets (True.csv, Fake.csv, WELFake_Dataset.csv). Data preprocessing includes duplicate removal, missing value handling, and feature selection. EDA techniques such as histograms, bar charts, and correlation matrices help identify key trends. The dataset is split (80% train, 20% test) for robust evaluation. Three machine learning models—Naïve Bayes, Random Forest, and SVM—are implemented, with hyperparameter tuning and 5-fold cross-validation for optimization. Random Forest leverages multiple decision trees, SVM applies an RBF kernel, and Naïve Bayes is used for probabilistic classification. Model performance is assessed using accuracy, precision, recall, F1-score, RMSE, and R-squared.
+
+Results show Random Forest and Naïve Bayes achieving high accuracy, with SVM excelling when optimized. Feature selection and Elastic Net regularization improve efficiency. Data visualization aids in interpretability, highlighting class distributions and key feature impacts. Future enhancements include deep learning (LSTM), real-time detection, and NLP-based sentiment analysis. This project demonstrates machine learning's potential in combating misinformation, providing a scalable solution for detecting fake news.
